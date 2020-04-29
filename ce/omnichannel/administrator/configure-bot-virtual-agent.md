@@ -4,7 +4,7 @@ description: "Instructions to integrate a bot in Omnichannel for Customer Servic
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 04/23/2020
+ms.date: 04/29/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -14,7 +14,16 @@ ms.topic: article
 
 Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, agents can see the full transcript of bot conversations and have complete context while engaging with customers.
 
-Once you have created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel Administration app in order to add your bot to queues and configure context variables to route chat sessions to queues. 
+Once you have created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel Administration app in order to add your bot to queues and configure context variables to route chat sessions to queues.
+
+When you integrate a Power Virtual Agents bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
+
+- Seamlessly integrate your Power Virtual Agents bot with all channels&mdash;such as Chat, SMS, Teams, and social channels&mdash;without needing to add channel-specific code in the bot.
+- Transfer bot conversations to human agents, and include the full context of the conversation.
+- Analyze the bot transcript that's available in Common Data Service after the chat is completed.
+- Configure routing rules to selectively route incoming requests to bots based on context, such as issue type or customer type. For example, you can route low-complexity issues to bots, or route the conversation to a sales or support bot based on the webpage browsing history of the customer.
+- Monitor the bot conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
+- Use the historical dashboards to get insights into the effectiveness of the bots through metrics such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
 
 ## Prerequisites
 * Product licenses - You need a product license for Power Virtual Agents ([start a trial](https://go.microsoft.com/fwlink/p/?LinkId=2092080&clcid=0x409)) and Omnichannel for Customer service ([learn more](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/try-chat-for-dynamics365)).
