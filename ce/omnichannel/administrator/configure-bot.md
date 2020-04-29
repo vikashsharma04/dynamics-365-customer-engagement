@@ -1,10 +1,10 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
 description: "Instructions to integrate an Azure bot in Omnichannel for Customer Service."
-author: lalexms
-ms.author: laalexan
+author: platkat
+ms.author: ktaylor
 manager: shujoshi
-ms.date: 04/23/2020
+ms.date: 04/29/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -22,7 +22,7 @@ In Omnichannel for Customer Service, you can integrate a bot to start the conver
 
 When you integrate an Azure bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
-- Seamlessly integrate your Azure bot with all channels&mdash;such as Chat, SMS, and Facebook&mdash;without needing to add channel-specific code in the bot.
+- Seamlessly integrate your Azure bot with all channels&mdash;such as Chat, SMS, Teams, and social channels&mdash;without needing to add channel-specific code in the bot.
 - Transfer bot conversations to human agents, and include the full context of the conversation.
 - Analyze the bot transcript that's available in Common Data Service after the chat is completed.
 - Configure routing rules to selectively route incoming requests to bots based on context, such as issue type or customer type. For example, you can route low-complexity issues to bots, or route the conversation to a sales or support bot based on the webpage browsing history of the customer.
