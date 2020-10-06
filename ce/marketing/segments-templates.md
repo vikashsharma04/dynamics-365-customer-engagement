@@ -24,7 +24,7 @@ search.app:
 
 Like many entities in Dynamics 365 Marketing, segments support templates, each of which provides an initial collection of settings that help users get started creating common types of segments more quickly.
 
-## Create a segment based on a template
+## Create a segment based on a template ##
 
 Each time you create a new segment, the **Segment templates** dialog box opens, showing a list of available templates. Each template provides a fully or partially defined query designed for a particular purpose, as indicated by the template name. Select any template to read more information about it in the information panel. **Filter** and **Search** features are provided to help you find the template you're looking for. Select a listed template and then choose **Select** to load the that template, or choose **Cancel** to start [building a new segment from scratch](segmentation-lists-subscriptions.md).
 
